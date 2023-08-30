@@ -1,0 +1,21 @@
+.pbase{
+  background-color: pink;
+  font-family: sans-serif; 
+  font-weight: bold;  
+}
+
+.pmid{
+  font-size: 20px;
+}
+
+#num2{
+ font-family: serif;
+ font-size: 25px;
+ color: blue;
+}
+
+#num4{
+ font-weight: bold;
+ font-size: 16px;
+ background-color: green;
+}
