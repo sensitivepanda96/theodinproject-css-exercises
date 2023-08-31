@@ -1,0 +1,13 @@
+    .cls1,.cls2 {
+    font-family:Lato;
+}
+
+.cls1{
+    color: white;
+    background-color: black;
+}
+
+.cls2{
+    color: black;
+    background-color: yellow;
+}
