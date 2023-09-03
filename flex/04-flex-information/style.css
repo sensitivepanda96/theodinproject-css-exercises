@@ -2,6 +2,22 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+.maininfo{
+  display: flex;
+  margin: 16px;
+  padding: 16px;
+  gap: 25px;
+}
+
+.cardinfo{
+  display: flex;
+  flex-direction: column;
+}
+
+.text{
+  margin: 15px;
+}
+
 img {
   width: 100px;
   height: 100px;
@@ -10,6 +26,8 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
 }
 
 /* do not edit this footer */
