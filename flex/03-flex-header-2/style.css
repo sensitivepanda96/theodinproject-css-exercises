@@ -11,6 +11,7 @@ body {
 .header {
   display: flex;
   background: white;
+  justify-content: space-between;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
 }
@@ -19,6 +20,7 @@ body {
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
+  justify-content: flex-end;
   width: 48px;
   height: 48px;
 }
@@ -47,4 +49,11 @@ a {
 ul {
   list-style-type: none;
   display: flex;
+  gap: 16px;
+}
+
+.left, .right{
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
